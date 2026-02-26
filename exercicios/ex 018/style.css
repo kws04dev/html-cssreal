@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+body {
+background-color: rgb(160, 252, 124);
+
+
+}
+
+
+h1{ color: green;
+
+}
+h1#principal {text-align: center ;
+background-color: aliceblue;
+}
+h2{
+    color: rgb(13, 66, 13);
+
+}

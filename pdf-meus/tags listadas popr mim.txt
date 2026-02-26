@@ -1,0 +1,87 @@
+tags pra html
+
+h1 = titulo 
+h2 a h6 =sub titutlos e topicos
+
+title = titilo da barra de abas
+
+&lt; e &gt; menor que e maior q
+
+!= começa o base
+
+<P> paragrafos/escrever 
+
+<!--     --> para comentarios do dev
+
+& + nome do simbolo = simbolos como moedas e etc
+
+&#x + codigo do emogi = para emogis 
+
+
+q= citação simples
+
+
+pre= organiza em quebras
+
+code= monoespaçada 
+
+
+
+
+sup = sobreescrito (em cima)
+
+sub = subescrito (em baixo)
+
+del = para riscar trxto
+
+u/ins= para subliar e sugerir que é um texto adicionado ao material
+
+b / strong = negrito
+
+i/ EM =italico
+ 
+mark = para marcar textos
+
+mark style antes da tag <head> = mudar o estilo
+
+
+bdo=rtl = inverter texto
+
+abbr= pra colococar significados nas abreviações
+
+
+
+dd= definiçoes escrita na lista 
+dt=definiçoes listas 
+
+ul= lista não ordenada
+ol = lista ordenada 
+type=tipificar e mudar o ordenamento 
+start= tipificar o começo da listagem
+
+a= adicionar links
+target _ blank = pra abrir link em nova aba 
+rel = pra indicar de onde é o link
+../ = voltar a pasta anterior
+
+
+
+<source media="(max-width:750px)" srcset="IMAGENS/fundop.png" type="image/png">
+<source media="(max-width: 1050px)" srcset="IMAGENS/fundom.png" type="image/png">
+<img src="IMAGENS/fundog.png" alt="imagem flexivel ">  
+
+
+
+<audio src="midia/ SUA MUSICA "
+controls autoplay> </audio> = para audios com botão, mp3 e ovv
+
+
+
+
+
+css::
+padding:10px; =criar uma borda no conteudo
+margin: auto;= centralizar conteudo 
+main= pra destacar o html do body (conteudo)
+border-radius: 20px; = arrendodar a borda do conteudo
+box-shadow: 10px 10px 10px= pra criar sombra no conteudo
