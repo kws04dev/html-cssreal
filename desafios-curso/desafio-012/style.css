@@ -1,8 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 header{ 
     background-color: black;
-    height: 30vh;
-    width: 100vh;
-    position:relative
+    text-align: center;
   
     
   
@@ -10,6 +13,9 @@ header{
 @font-face {
     font-family:'tuk';
     src: url(fonts/Passion_One\,Playwrite_CU_Guides/);
+}
+header > p {
+    padding-bottom: 50px;
 }
 h1{
     font: 'tuk', sans-serif;
@@ -24,15 +30,42 @@ h2{
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 1, 1);
     font: bolder;
+    font-weight: bold;
+
 }
-body{
-    background-color: 
-    rgb(255, 255, 255);
+a:hover {
+    text-decoration: underline;
+}
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
 }
 
-main{ 
-width: 100vh;
-background-color: white;
+section{
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+.normal{
+    background-color: white ;
+    color: black;
+}
+.image > p {
+    background-color: rgba(41, 40, 40, 0.829);
+    width: 400px;
+}
+
+.image { 
+    background-color: rgb(75, 71, 71);
+    color: rgb(255, 255, 255);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
