@@ -1,0 +1,38 @@
+header{ 
+    background-color: black;
+    height: 30vh;
+    width: 100vh;
+    position:relative
+  
+    
+  
+}
+@font-face {
+    font-family:'tuk';
+    src: url(fonts/Passion_One\,Playwrite_CU_Guides/);
+}
+h1{
+    font: 'tuk', sans-serif;
+    color: white;
+    text-align: center;
+
+}
+h2{
+    text-align: center;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font: bolder;
+}
+body{
+    background-color: 
+    rgb(255, 255, 255);
+}
+
+main{ 
+width: 100vh;
+background-color: white;
+}
