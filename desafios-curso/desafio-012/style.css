@@ -11,14 +11,23 @@ header{
   
 }
 @font-face {
-    font-family:'tuk';
-    src: url(fonts/Passion_One\,Playwrite_CU_Guides/);
+    font-family:'font01a' ;
+    src: url(fonts/PassionOne-Regular.ttf);
+   
 }
+
+@font-face {
+    font-family:'font02a' ;
+    src: url(fonts/PassionOne-Bold.ttf);
+}
+
 header > p {
     padding-bottom: 50px;
+    color: white;
+      font-family:Arial, Helvetica, sans-serif ;
 }
 h1{
-    font: 'tuk', sans-serif;
+    font: 'font01a' sans-serif;
     color: white;
     text-align: center;
 
@@ -30,7 +39,7 @@ h2{
 
 a {
     text-decoration: none;
-    color: rgb(255, 1, 1);
+   color: white;
     font: bolder;
     font-weight: bold;
 
@@ -49,10 +58,13 @@ section{
     padding-bottom: 10vh;
     padding-left: 30px;
 }
-
+p{
+      font-family:"font01a" ;
+}
 .normal{
     background-color: white ;
     color: black;
+  
 }
 .image > p {
     background-color: rgba(41, 40, 40, 0.829);
@@ -60,12 +72,19 @@ section{
 }
 
 .image { 
-    background-color: rgb(75, 71, 71);
+    background-color: rgba(75, 71, 71, 0.178);
     color: rgb(255, 255, 255);
+    background-image: url(pacote-d012/imagens/background001.jpg) ;
+    background-size: cover;
+    background-position: center;
+   background-attachment: scroll;
 }
 footer{
     background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
+}
+footer > p {
+    font-family: Arial, Helvetica, sans-serif;
 }
