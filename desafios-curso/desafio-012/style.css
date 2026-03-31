@@ -74,11 +74,24 @@ p{
 .image { 
     background-color: rgba(75, 71, 71, 0.178);
     color: rgb(255, 255, 255);
-    background-image: url(pacote-d012/imagens/background001.jpg) ;
-    background-size: cover;
-    background-position: center;
-   background-attachment: scroll;
+    background-attachment: fixed;
+    
 }
+
+#image01{ background-image:url(pacote-d012/imagens/background001.jpg) ;
+    background-size: cover;
+    background-position: right ;
+   
+
+}
+
+#image02{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.61);
+
+}
+
 footer{
     background-color: black;
     color: white;
